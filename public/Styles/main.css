@@ -1,0 +1,153 @@
+/*----------------------------------------------------------------
+Reset - published from http://meyerweb.com/eric/tools/css/reset/
+----------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------------------------------------------
+GLOBAL
+--------------------------------------------------------------------------*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*-------------------------------------------------------------------------
+TYPOGRAPHY
+--------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 6em;
+}
+
+p {
+  font-size: 3em;
+}
+
+a {
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------------------
+MAIN
+--------------------------------------------------------------------------*/
+
+.bio {
+  box-sizing: border-box;
+  height: 55em;
+  padding-top: 12.5em;
+  text-align: center;
+  width: 50%;
+}
+ .pic {
+   width: 50%;
+ }
+nav {
+  background-color: black;
+  padding: 0.5em;
+  text-align: center;
+}
+
+body a {
+  margin: 0 1em;
+  transition: 0.175s ease-in;
+}
+ body a:hover, body a:focus, body a:active {
+   color: rgb(185, 42, 4);
+ }
+
+header img {
+  width: 100%;
+}
+
+/*-------------------------------------------------------------------------
+Characters
+--------------------------------------------------------------------------*/
+#little-mac, #glass-joe, #glass-joe, #piston-honda {
+  box-sizing: content-box;
+  position: relative;
+  width: 100%;
+
+}
+
+#little-mac-pic, #glass-joe-pic, #piston-honda-pic {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+/*-------------------------------------------------------------------------
+Footer
+--------------------------------------------------------------------------*/
+
+footer {
+  background-color: black;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 2em;
+  width: 100%;
+}
+
+footer p {
+  bottom: 0;
+  font-size: 1.6em;
+  postiton: fixed;
+
+}
